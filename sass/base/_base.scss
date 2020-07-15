@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /* inherits from body*/
+}
+
+html {
+    font-size: 62.5%;
+    /* the browser's default font size is 16px. 
+    Adding % is a better practice because this 
+    way the user can modify the size. 
+    so 62.5% from 16px is equal to 10px
+    */
+}
+
+body {
+    box-sizing: border-box;
+}
